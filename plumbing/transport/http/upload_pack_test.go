@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bryanstenson-okta/go-git/v5/plumbing"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/protocol/packp"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport/test"
+	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/go-git/go-git/v5/plumbing/protocol/packp"
+	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/go-git/go-git/v5/plumbing/transport/test"
 
-	fixtures "github.com/bryanstenson-okta/go-git-fixtures/v4"
+	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"
 )
 

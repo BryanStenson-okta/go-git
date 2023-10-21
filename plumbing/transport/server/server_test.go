@@ -3,15 +3,15 @@ package server_test
 import (
 	"testing"
 
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/cache"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport/client"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport/server"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport/test"
-	"github.com/bryanstenson-okta/go-git/v5/storage/filesystem"
-	"github.com/bryanstenson-okta/go-git/v5/storage/memory"
+	"github.com/go-git/go-git/v5/plumbing/cache"
+	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/go-git/go-git/v5/plumbing/transport/client"
+	"github.com/go-git/go-git/v5/plumbing/transport/server"
+	"github.com/go-git/go-git/v5/plumbing/transport/test"
+	"github.com/go-git/go-git/v5/storage/filesystem"
+	"github.com/go-git/go-git/v5/storage/memory"
 
-	fixtures "github.com/bryanstenson-okta/go-git-fixtures/v4"
+	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"
 )
 

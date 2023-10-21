@@ -10,10 +10,10 @@ import (
 
 	"github.com/armon/go-socks5"
 	"github.com/gliderlabs/ssh"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport"
-	"github.com/bryanstenson-okta/go-git/v5/plumbing/transport/ssh/internal/test"
+	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/go-git/go-git/v5/plumbing/transport/ssh/internal/test"
 
-	fixtures "github.com/bryanstenson-okta/go-git-fixtures/v4"
+	fixtures "github.com/go-git/go-git-fixtures/v4"
 	stdssh "golang.org/x/crypto/ssh"
 	. "gopkg.in/check.v1"
 )
