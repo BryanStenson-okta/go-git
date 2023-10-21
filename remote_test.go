@@ -11,17 +11,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/bryanstenson-okta/go-git/v5/config"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/cache"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/protocol/packp"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/protocol/packp/capability"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/storer"
+	"github.com/bryanstenson-okta/go-git/v5/storage"
+	"github.com/bryanstenson-okta/go-git/v5/storage/filesystem"
+	"github.com/bryanstenson-okta/go-git/v5/storage/memory"
 
-	fixtures "github.com/go-git/go-git-fixtures/v4"
+	fixtures "github.com/bryanstenson-okta/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"
 )
 

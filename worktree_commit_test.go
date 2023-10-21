@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/cache"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/object"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/storer"
+	"github.com/bryanstenson-okta/go-git/v5/storage/filesystem"
+	"github.com/bryanstenson-okta/go-git/v5/storage/memory"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
@@ -309,7 +309,7 @@ func (s *WorktreeSuite) TestCommitTreeSort(c *C) {
 	c.Assert(err, IsNil, Commentf("%s", buf.Bytes()))
 }
 
-// https://github.com/go-git/go-git/pull/224
+// https://github.com/bryanstenson-okta/go-git/pull/224
 func (s *WorktreeSuite) TestJustStoreObjectsNotAlreadyStored(c *C) {
 	fs, clean := s.TemporalFilesystem()
 	defer clean()

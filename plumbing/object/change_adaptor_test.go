@@ -3,15 +3,15 @@ package object
 import (
 	"sort"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
-	"github.com/go-git/go-git/v5/utils/merkletrie/noder"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/cache"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/filemode"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/storer"
+	"github.com/bryanstenson-okta/go-git/v5/storage/filesystem"
+	"github.com/bryanstenson-okta/go-git/v5/utils/merkletrie"
+	"github.com/bryanstenson-okta/go-git/v5/utils/merkletrie/noder"
 
-	fixtures "github.com/go-git/go-git-fixtures/v4"
+	fixtures "github.com/bryanstenson-okta/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"
 )
 

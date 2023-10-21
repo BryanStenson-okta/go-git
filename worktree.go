@@ -11,16 +11,16 @@ import (
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
-	"github.com/go-git/go-git/v5/plumbing/format/index"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
-	"github.com/go-git/go-git/v5/utils/sync"
+	"github.com/bryanstenson-okta/go-git/v5/config"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/filemode"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/format/gitignore"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/format/index"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/object"
+	"github.com/bryanstenson-okta/go-git/v5/plumbing/storer"
+	"github.com/bryanstenson-okta/go-git/v5/utils/ioutil"
+	"github.com/bryanstenson-okta/go-git/v5/utils/merkletrie"
+	"github.com/bryanstenson-okta/go-git/v5/utils/sync"
 )
 
 var (
